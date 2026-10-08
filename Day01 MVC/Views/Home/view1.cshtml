@@ -1,0 +1,16 @@
+﻿<h1>Hi from View</h1>
+
+<script>console.log("Hello World");</script>
+
+<style>h1{color: red ; }</style>
+
+@{
+	int x = 10;
+	x++;
+}
+<h2>@x</h2>
+
+@for(int i=0; i<10; i++)
+{
+	<Li>@i</Li>
+}
